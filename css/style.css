@@ -352,7 +352,8 @@ address {
 }
 .sectionservices {
   background-color: #ffffff;
-  background-image: url(https://cdn-bjmjf.nitrocdn.com/gsSJVsHgkwexdOuGJbPveYehDehaVtlN/assets/static/optimized/rev-b20bff4/wordpress-www-vendasta/vw-wordpress/triangle-bkgd-down-3.jpg) !important;
+  background-image: url(https://germainapm.com/wp-content/uploads/2020/07/background1.svg) !important;
+  background-position: inherit;
 }
 footer {
   background: #eeeeee45;
