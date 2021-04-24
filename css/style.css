@@ -789,33 +789,25 @@ input[type="radio"]:focus {
   background-color: #4caf50;
 }
 
-/*-------------------------------------------------------*/
-/* Sliders
-/*-------------------------------------------------------*/
-/**
- * Owl Carousel v2.3.4
- * Copyright 2013-2018 David Deutsch
- * Licensed under: SEE LICENSE IN https://github.com/OwlCarousel2/OwlCarousel2/blob/master/LICENSE
- */
-.owl-carousel,
-.owl-carousel .owl-item {
+.fym-carousel,
+.fym-carousel .fym-item {
   -webkit-tap-highlight-color: transparent;
   position: relative;
 }
 
-.owl-carousel {
+.fym-carousel {
   display: none;
   width: 100%;
   z-index: 1;
 }
 
-.owl-carousel .owl-stage {
+.fym-carousel .fym-stage {
   position: relative;
   touch-action: manipulation;
   -moz-backface-visibility: hidden;
 }
 
-.owl-carousel .owl-stage:after {
+.fym-carousel .fym-stage:after {
   content: ".";
   display: block;
   clear: both;
@@ -824,14 +816,14 @@ input[type="radio"]:focus {
   height: 0;
 }
 
-.owl-carousel .owl-stage-outer {
+.fym-carousel .fym-stage-outer {
   position: relative;
   overflow: hidden;
   -webkit-transform: translate3d(0, 0, 0);
 }
 
-.owl-carousel .owl-item,
-.owl-carousel .owl-wrapper {
+.fym-carousel .fym-item,
+.fym-carousel .fym-wrapper {
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   -ms-backface-visibility: hidden;
@@ -840,31 +832,31 @@ input[type="radio"]:focus {
   -ms-transform: translate3d(0, 0, 0);
 }
 
-.owl-carousel .owl-item {
+.fym-carousel .fym-item {
   min-height: 1px;
   float: left;
   -webkit-backface-visibility: hidden;
   -webkit-touch-callout: none;
 }
 
-.owl-carousel .owl-item img {
+.fym-carousel .fym-item img {
   display: block;
   width: 100%;
 }
 
-.owl-carousel .owl-dots.disabled,
-.owl-carousel .owl-nav.disabled {
+.fym-carousel .fym-dots.disabled,
+.fym-carousel .fym-nav.disabled {
   display: none;
 }
 
-.no-js .owl-carousel,
-.owl-carousel.owl-loaded {
+.no-js .fym-carousel,
+.fym-carousel.fym-loaded {
   display: block;
 }
 
-.owl-carousel .owl-dot,
-.owl-carousel .owl-nav .owl-next,
-.owl-carousel .owl-nav .owl-prev {
+.fym-carousel .fym-dot,
+.fym-carousel .fym-nav .fym-next,
+.fym-carousel .fym-nav .fym-prev {
   cursor: pointer;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -872,20 +864,20 @@ input[type="radio"]:focus {
   user-select: none;
 }
 
-.owl-carousel.owl-loading {
+.fym-carousel.fym-loading {
   opacity: 0;
   display: block;
 }
 
-.owl-carousel.owl-hidden {
+.fym-carousel.fym-hidden {
   opacity: 0;
 }
 
-.owl-carousel.owl-refresh .owl-item {
+.fym-carousel.fym-refresh .fym-item {
   visibility: hidden;
 }
 
-.owl-carousel.owl-drag .owl-item {
+.fym-carousel.fym-drag .fym-item {
   touch-action: pan-y;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -893,36 +885,36 @@ input[type="radio"]:focus {
   user-select: none;
 }
 
-.owl-carousel.owl-grab {
+.fym-carousel.fym-grab {
   cursor: move;
   cursor: -webkit-grab;
   cursor: grab;
 }
 
-.owl-carousel.owl-rtl {
+.fym-carousel.fym-rtl {
   direction: rtl;
 }
 
-.owl-carousel.owl-rtl .owl-item {
+.fym-carousel.fym-rtl .fym-item {
   float: right;
 }
 
-.owl-carousel .animated {
+.fym-carousel .animated {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
 
-.owl-carousel .owl-animated-in {
+.fym-carousel .fym-animated-in {
   z-index: 0;
 }
 
-.owl-carousel .owl-animated-out {
+.fym-carousel .fym-animated-out {
   z-index: 1;
 }
 
-.owl-carousel .fadeOut {
+.fym-carousel .fadeOut {
   -webkit-animation-name: fadeOut;
   animation-name: fadeOut;
 }
@@ -945,32 +937,32 @@ input[type="radio"]:focus {
   }
 }
 
-.owl-height {
+.fym-height {
   transition: height 0.5s ease-in-out;
 }
 
-.owl-carousel .owl-item .owl-lazy {
+.fym-carousel .fym-item .fym-lazy {
   opacity: 0;
   transition: opacity 0.4s ease;
 }
 
-.owl-carousel .owl-item .owl-lazy:not([src]),
-.owl-carousel .owl-item .owl-lazy[src^=""] {
+.fym-carousel .fym-item .fym-lazy:not([src]),
+.fym-carousel .fym-item .fym-lazy[src^=""] {
   max-height: 0;
 }
 
-.owl-carousel .owl-item img.owl-lazy {
+.fym-carousel .fym-item img.fym-lazy {
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
 
-.owl-carousel .owl-video-wrapper {
+.fym-carousel .fym-video-wrapper {
   position: relative;
   height: 100%;
   background: #000;
 }
 
-.owl-carousel .owl-video-play-icon {
+.fym-carousel .fym-video-play-icon {
   position: absolute;
   height: 80px;
   width: 80px;
@@ -987,17 +979,17 @@ input[type="radio"]:focus {
   transition: transform 0.1s ease, -webkit-transform 0.1s ease;
 }
 
-.owl-carousel .owl-video-play-icon:hover {
+.fym-carousel .fym-video-play-icon:hover {
   -webkit-transform: scale(1.3, 1.3);
   transform: scale(1.3, 1.3);
 }
 
-.owl-carousel .owl-video-playing .owl-video-play-icon,
-.owl-carousel .owl-video-playing .owl-video-tn {
+.fym-carousel .fym-video-playing .fym-video-play-icon,
+.fym-carousel .fym-video-playing .fym-video-tn {
   display: none;
 }
 
-.owl-carousel .owl-video-tn {
+.fym-carousel .fym-video-tn {
   opacity: 0;
   height: 100%;
   background-position: center center;
@@ -1006,15 +998,15 @@ input[type="radio"]:focus {
   transition: opacity 0.4s ease;
 }
 
-.owl-carousel .owl-video-frame {
+.fym-carousel .fym-video-frame {
   position: relative;
   z-index: 1;
   height: 100%;
   width: 100%;
 }
 
-.owl-prev,
-.owl-next {
+.fym-prev,
+.fym-next {
   display: block;
   overflow: hidden;
   position: absolute;
@@ -1033,73 +1025,73 @@ input[type="radio"]:focus {
   padding: 0;
   transition: all 0.2s ease-in-out;
 }
-.owl-prev:hover,
-.owl-next:hover {
+.fym-prev:hover,
+.fym-next:hover {
   opacity: 0.92;
   border-color: transparent;
 }
 
-.owl-prev {
+.fym-prev {
   left: 10px;
 }
 
-.owl-next {
+.fym-next {
   right: 10px;
 }
 
-.owl-carousel:hover .owl-prev,
-.owl-carousel:hover .owl-next {
+.fym-carousel:hover .fym-prev,
+.fym-carousel:hover .fym-next {
   opacity: 1;
 }
 
-.owl-carousel--dark-arrows .owl-prev,
-.owl-carousel--dark-arrows .owl-next {
+.fym-carousel--dark-arrows .fym-prev,
+.fym-carousel--dark-arrows .fym-next {
   color: #6a798c;
 }
 
-.owl-carousel--visible-arrows .owl-prev,
-.owl-carousel--visible-arrows .owl-next {
+.fym-carousel--visible-arrows .fym-prev,
+.fym-carousel--visible-arrows .fym-next {
   opacity: 1;
 }
 
-.owl-carousel--visible-arrows .owl-prev,
-.owl-carousel--visible-arrows:hover .owl-prev {
+.fym-carousel--visible-arrows .fym-prev,
+.fym-carousel--visible-arrows:hover .fym-prev {
   left: -20px;
 }
 
-.owl-carousel--visible-arrows .owl-next,
-.owl-carousel--visible-arrows:hover .owl-next {
+.fym-carousel--visible-arrows .fym-next,
+.fym-carousel--visible-arrows:hover .fym-next {
   right: -20px;
 }
 
-.owl-carousel--arrows-outside .owl-prev,
-.owl-carousel--arrows-outside .owl-next {
+.fym-carousel--arrows-outside .fym-prev,
+.fym-carousel--arrows-outside .fym-next {
   opacity: 1;
   top: -20px;
 }
 
-.owl-carousel--arrows-outside .owl-prev {
+.fym-carousel--arrows-outside .fym-prev {
   right: 36px;
   left: auto;
 }
 
-.owl-carousel--arrows-outside .owl-next {
+.fym-carousel--arrows-outside .fym-next {
   right: 0;
 }
 
-.owl-dots {
+.fym-dots {
   text-align: center;
   -webkit-tap-highlight-color: transparent;
   margin-top: 30px;
 }
 
-.owl-dot {
+.fym-dot {
   display: inline-block;
   zoom: 1;
   *display: inline;
 }
 
-.owl-dot span {
+.fym-dot span {
   width: 8px;
   height: 8px;
   border-radius: 50%;
@@ -1111,23 +1103,23 @@ input[type="radio"]:focus {
   transition: all 200ms ease;
 }
 
-.owl-dot.active span,
-.owl-dot:hover span {
+.fym-dot.active span,
+.fym-dot:hover span {
   opacity: 1;
   background-color: #efed74;
 }
 
-.owl-carousel--dots-inside .owl-dots {
+.fym-carousel--dots-inside .fym-dots {
   position: absolute;
   bottom: 20px;
   margin-top: 0;
   width: 100%;
 }
 
-.owl-custom-nav {
+.fym-custom-nav {
   margin-top: 24px;
 }
-.owl-custom-nav__btn {
+.fym-custom-nav__btn {
   text-transform: uppercase;
   font-size: 10px;
   border-radius: 5px;
@@ -1136,15 +1128,15 @@ input[type="radio"]:focus {
   line-height: 26px;
   background-color: transparent;
 }
-.owl-custom-nav__btn:hover {
+.fym-custom-nav__btn:hover {
   background-color: #efed74;
   color: #fff;
   border-color: transparent;
 }
-.owl-custom-nav__btn:focus {
+.fym-custom-nav__btn:focus {
   outline: none;
 }
-.owl-custom-nav__btn i {
+.fym-custom-nav__btn i {
   font-size: 8px;
   margin: 0 3px;
   position: relative;
