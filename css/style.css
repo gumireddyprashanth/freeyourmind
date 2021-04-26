@@ -7,6 +7,7 @@
 
 html {
   font-size: 100%;
+  scroll-behavior: smooth;
 }
 img.bg1 {
   box-shadow: 0 0 30px #a2a2a2;
@@ -23,7 +24,9 @@ img.bg1 {
 .clearfix:after {
   clear: both;
 }
-
+.nav__dropdown-menu .ui-arrow-down {
+  font-size: 10px !important;
+}
 ::-moz-selection {
   color: #fff;
   background-color: #000;
@@ -355,6 +358,11 @@ address {
   background-image: url(https://germainapm.com/wp-content/uploads/2020/07/background1.svg) !important;
   background-position: inherit;
 }
+.sectionsolutions {
+  background-color: #ffffff;
+  background-image: url(https://germainapm.com/wp-content/uploads/2020/07/background1.svg) !important;
+  background-position: inherit;
+}
 footer {
   background: #eeeeee45;
 }
@@ -557,6 +565,16 @@ footer {
   position: relative;
   margin-left: 40px;
   line-height: 1;
+}
+.feature .btn i {
+  margin-left: 10px;
+}
+.feature .btn {
+  margin-top: 20px;
+}
+.feature .btn--lg span,
+.btn--lg.btn--button span {
+  line-height: 40px;
 }
 
 .rounded,
@@ -2029,7 +2047,7 @@ img.mfp-img {
 /*-------------------------------------------------------*/
 /* Feature
 /*-------------------------------------------------------*/
-.feature {
+.sectionservices .feature {
   z-index: 1;
   padding: 40px;
   margin-bottom: 20px;
@@ -2037,8 +2055,18 @@ img.mfp-img {
   border-radius: 0px 0px 20px 20px;
   background: #fff !important;
 }
-.feature img {
+.sectionsolutions .feature {
+  z-index: 1;
+  padding: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.sectionservices .feature img {
   width: 60%;
+  margin-bottom: 15px;
+}
+.sectionsolutions .feature img {
+  width: 100%;
   margin-bottom: 15px;
 }
 .feature__icon {
@@ -3054,14 +3082,16 @@ figcaption {
     transition: all 0.2s ease-in-out;
   }
   .nav__dropdown-menu > li > a {
-    color: #6a798c;
+    color: #000;
     padding: 5px 30px;
     display: block;
+    font-weight: 600;
   }
   .nav__dropdown-menu > li > a:hover,
   .nav__dropdown-menu > li > a:focus {
     color: #efed74;
   }
+
   .nav__menu > .nav__dropdown > .nav__dropdown-menu:before {
     content: "";
     display: block;
@@ -3142,9 +3172,7 @@ header .flex-parent {
 }
 
 .feedbacksection {
-  background: #eee;
-  background-position: bottom;
-  background-image: url(https://cdn-bjmjf.nitrocdn.com/gsSJVsHgkwexdOuGJbPveYehDehaVtlN/assets/static/optimized/rev-b20bff4/wordpress-www-vendasta/vw-wordpress/triangle-bkgd-down-3.jpg) !important;
+  background: #eeeeee70;
 }
 /* Nav Icon Toggle (mobile nav)
 -------------------------------------------------------*/
