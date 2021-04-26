@@ -12,6 +12,16 @@ html {
 img.bg1 {
   box-shadow: 0 0 30px #a2a2a2;
 }
+#neovisionaicontent img.bg1 {
+  box-shadow: none;
+}
+#neovisionaicontent h2 {
+  font-size: 44px;
+  line-height: 45px;
+}
+#neovisionaicontent p {
+  font-size: 16px;
+}
 .clearfix {
   *zoom: 1;
 }
@@ -44,6 +54,15 @@ img.bg1 {
 
 :focus {
   outline: none;
+}
+#footercta {
+  background: #000;
+}
+#footercta .call-to-action__title {
+  color: #fff;
+}
+#footercta p {
+  color: #fff;
 }
 
 body {
@@ -89,7 +108,18 @@ p {
   line-height: 24px;
   margin: 0 0 10px;
 }
-
+#neovisionaiheader {
+  background: url(../img/neovisionai/bg.png);
+  background-size: cover;
+}
+#neovisionaiheader {
+  padding-top: 150px;
+}
+#neovisionaiheader h1,
+#neovisionaiheader p {
+  color: #fff;
+  margin-bottom: 5px;
+}
 video {
   height: 100%;
   width: 100%;
@@ -542,7 +572,7 @@ footer {
 }
 .btn--white {
   background-color: #fff;
-  color: #333b69;
+  color: #000;
 }
 .btn--light {
   background-color: #f7f9fa;
@@ -557,8 +587,8 @@ footer {
 .btn--white:focus,
 .btn--light:hover,
 .btn--light:focus {
-  background-color: #efed74;
-  border-color: transparent;
+  background-color: #000;
+  color: #fff;
 }
 .btn i {
   font-size: 12px;
@@ -2062,7 +2092,7 @@ img.mfp-img {
   text-align: center;
 }
 .sectionservices .feature img {
-  width: 60%;
+  width: 85%;
   margin-bottom: 15px;
 }
 .sectionsolutions .feature img {
@@ -3089,7 +3119,7 @@ figcaption {
   }
   .nav__dropdown-menu > li > a:hover,
   .nav__dropdown-menu > li > a:focus {
-    color: #efed74;
+    color: #ccc;
   }
 
   .nav__menu > .nav__dropdown > .nav__dropdown-menu:before {
