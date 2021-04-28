@@ -13,6 +13,7 @@ img.bg1 {
 }
 #neovisionaicontent img.bg1 {
   box-shadow: none;
+  width: 75%;
 }
 #neovisionaicontent h2 {
   font-size: 44px;
