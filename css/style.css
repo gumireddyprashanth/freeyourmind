@@ -4,7 +4,6 @@
 .secondarycolor {
   color: #efed74;
 }
-
 html {
   font-size: 100%;
   scroll-behavior: smooth;
@@ -20,6 +19,23 @@ img.bg1 {
   line-height: 45px;
 }
 #neovisionaicontent p {
+  font-size: 16px;
+}
+#morpheussocialcontent img.bg1 {
+  box-shadow: none;
+}
+#morpheussocialcontent h2 {
+  font-size: 44px;
+  line-height: 45px;
+}
+#morpheussocialcontent p {
+  font-size: 16px;
+}
+#marketercontent img.bg1 {
+  box-shadow: none;
+  width: 70%;
+}
+#marketercontent p {
   font-size: 16px;
 }
 .clearfix {
@@ -117,6 +133,54 @@ p {
 }
 #neovisionaiheader h1,
 #neovisionaiheader p {
+  color: #fff;
+  margin-bottom: 5px;
+}
+#morphheussocialheader {
+  background: url(../img/msocial/bg.jpg);
+  background-size: cover;
+}
+#morphheussocialheader {
+  padding-top: 150px;
+}
+#morphheussocialheader h1,
+#morphheussocialheader p {
+  color: #fff;
+  margin-bottom: 5px;
+}
+#marketerheader {
+  background: url(../img/marketer/bg.jpg);
+  background-size: cover;
+}
+#marketerheader {
+  padding-top: 150px;
+}
+#marketerheader h1,
+#marketerheader p {
+  color: #fff;
+  margin-bottom: 5px;
+}
+#constructheader {
+  background: url(../img/construct/bg.jpg);
+  background-size: cover;
+}
+#constructheader {
+  padding-top: 150px;
+}
+#constructheader h1,
+#constructheader p {
+  color: #fff;
+  margin-bottom: 5px;
+}
+#contactheader {
+  background: url(../img/construct/bg.jpg);
+  background-size: cover;
+}
+#contactheader {
+  padding-top: 150px;
+}
+#contactheader h1,
+#contactheader p {
   color: #fff;
   margin-bottom: 5px;
 }
@@ -3175,12 +3239,14 @@ figcaption {
 -------------------------------------------------------*/
 .logo {
   line-height: 1;
-  width: 70%;
+  width: 40%;
 }
 footer .logo {
   width: 70%;
 }
-
+.nav__header {
+  width: 45%;
+}
 /* Nav Flexbox
 -------------------------------------------------------*/
 header .flex-parent {

@@ -53,8 +53,10 @@
 
     if (($window.scrollTop() > 10) & minWidth(992)) {
       $navHolder.addClass("nav__holder--sticky");
+      $(".logo").attr("src", "img/freeyourmindyellowblack.png");
     } else {
       $navHolder.removeClass("nav__holder--sticky");
+      $(".logo").attr("src", "img/freeyourmindwhite.png");
     }
   });
 
