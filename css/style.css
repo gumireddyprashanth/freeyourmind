@@ -32,6 +32,10 @@ img.bg1 {
 #morpheussocialcontent p {
   font-size: 16px;
 }
+#morpheussocialcontent img.bg1 {
+  box-shadow: none;
+  width: 60%;
+}
 #marketercontent img.bg1 {
   box-shadow: none;
   width: 70%;
@@ -138,7 +142,6 @@ p {
   margin-bottom: 5px;
 }
 #morphheussocialheader {
-  background: url(../img/msocial/bg.jpg);
   background-size: cover;
 }
 #morphheussocialheader {
@@ -2144,11 +2147,9 @@ img.mfp-img {
 /*-------------------------------------------------------*/
 .sectionservices .feature {
   z-index: 1;
-  padding: 40px;
+  padding: 0px;
   margin-bottom: 20px;
   text-align: center;
-  border-radius: 0px 0px 20px 20px;
-  background: #fff !important;
 }
 .sectionsolutions .feature {
   z-index: 1;
@@ -2173,6 +2174,7 @@ img.mfp-img {
 .feature__title {
   font-size: 18px;
   margin-bottom: 5px;
+  text-transform: uppercase;
 }
 .feature__text {
   margin-bottom: 0;
