@@ -130,10 +130,6 @@ p {
   margin: 0 0 10px;
 }
 #neovisionaiheader {
-  background: url(../img/neovisionai/bg.png);
-  background-size: cover;
-}
-#neovisionaiheader {
   padding-top: 150px;
 }
 #neovisionaiheader h1,
