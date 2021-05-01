@@ -2157,8 +2157,8 @@ img.mfp-img {
   color: #fff;
 }
 .mainpagebg {
-  background-image: url(../img/rbg2.jpg);
-  background-size: cover;
+  background-image: url(../img/rbg3.jpg);
+  background-size: contain;
 }
 /* .mainpagebg {
   background-color: #000000;
